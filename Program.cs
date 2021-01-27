@@ -24,7 +24,7 @@ namespace TAD_run_portfolio_update
                 if (sw.BaseStream.CanWrite)
                 {
                     sw.WriteLine("conda activate trading_prod");
-                    sw.WriteLine("python run_portfolio_update.py");
+                    sw.WriteLine("python run_portfolio_update.py"); 
                 }
             }
         }
